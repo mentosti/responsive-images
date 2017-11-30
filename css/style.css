@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+picture, img {
+    max-width: 90%;
+}
+
+ul li {
+    margin: 1%;
+    width: 98%;
+    float: left;
+    list-style: none;
+    text-align: center;
+/*    transition: 1s ease-in-out;*/
+}
+
+ul li:hover {
+/*    transform: scale(1.1);*/
+    animation: flip 1s;
+}
+
+@media all and (min-width: 600px) {
+    ul li {
+        width: 48%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    ul li {
+        width: 23%;
+    }
+}
