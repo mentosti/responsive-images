@@ -14,12 +14,12 @@ ul li {
     float: left;
     list-style: none;
     text-align: center;
-/*    transition: 1s ease-in-out;*/
+    transition: 1s ease-in-out;
 }
 
 ul li:hover {
-/*    transform: scale(1.1);*/
-    animation: flip 1s;
+    transform: perspective(50em) rotateX(30deg);
+/*    animation: flip 1s;*/
 }
 
 @media all and (min-width: 600px) {
@@ -28,7 +28,7 @@ ul li:hover {
     }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1201px) {
     ul li {
         width: 23%;
     }
